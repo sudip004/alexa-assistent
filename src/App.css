@@ -1,0 +1,63 @@
+.main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+}
+.btn-review{
+position: absolute;
+top: 1rem;
+left: 1rem;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.btn-review:hover{
+  transform: scaleX(1.1);
+}
+#shifra{
+  height: 65%;
+}
+span{
+  background: linear-gradient(to right, #2d9aad, #c028a7);
+  font-size: 2vmax;
+  background-clip: text;
+  color: transparent;
+}
+button{
+  width: 180px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(32, 155, 192);
+  box-shadow: 2px 2px 100px rgba(20, 117, 146, 0.5);
+}
+
+.response{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#speak{
+  width: 100px;
+}
+#aires{
+  width: 50vh;
+  height: 90px;
+}
+p{
+  font-size: 1.5vmax;
+  color: white;
+}
